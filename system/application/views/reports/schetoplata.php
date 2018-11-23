@@ -99,7 +99,7 @@ if (strlen($data_schet)==0){ echo datetostring($schetfactura_date->date);} else 
  <td> (10)</td>
  </tr>
  <tr>
- <td width=2100px> РНН, БИН и адрес местонахождения получателя   <u><?php echo $firm->rnn.", ".$firm->address; ?></u></td>
+ <td width=2100px> РНН, БИН и адрес местонахождения получателя   <u><?php echo $firm->rnn.", ".$firm->bin.", ".$firm->address; ?></u></td>
  <td> (10а)</td>
  </tr>
  <tr>
