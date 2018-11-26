@@ -37,7 +37,7 @@ if (strlen($data_schet)==0){ echo datetostring($schetfactura_date->date);} else 
  <td> (2)</td>
  </tr>
  <tr >
- <td width=2100px> РНН, БИН и адрес местонахождения поставщика <?php echo " <u>".$org->rnn." ".$org->address;?></u>
+ <td width=2100px> РНН, БИН и адрес местонахождения поставщика <?php echo " <u>РНН-".$org->rnn.", БИН-".$org->bin.", ".$org->address;?></u>
  </td>
  <td> (2а)</td>
  </tr>
