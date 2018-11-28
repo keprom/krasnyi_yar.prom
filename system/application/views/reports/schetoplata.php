@@ -32,7 +32,6 @@ if (strlen($data_schet)==0){ echo datetostring($schetfactura_date->date);} else 
  
  <tr>
  <td width=2100px> <b>Поставщик</b> <u><?php echo $org->org_name; ?></u>
- 
  </td>
  <td> (2)</td>
  </tr>
