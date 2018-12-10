@@ -332,13 +332,15 @@ function dob($text)
 		$this->load->view("right");
 		
 	}
-	function adding_tp()
-	{
-		if (trim($_POST['name'])!="")
-			$this->db->insert('industry.tp',$_POST);
-		redirect("billing/tp");
-		
-	}
+
+    function adding_tp()
+    {
+        if (trim($_POST['name'])!=""){
+            $_POST['ture_id'] = isset($_POST['ture_id'])? $_POST['ture_id']: 0;
+            $this->db->insert('industry.tp',$_POST);
+        }
+        redirect("billing/tp");
+    }
 
 	function banks()
 	{
