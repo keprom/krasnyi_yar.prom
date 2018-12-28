@@ -54,3 +54,4 @@ echo anchor("billing/ktp_vih1","КТП и потребление за перио
 <li><a href="<?php echo site_url('billing/pre_report_2000'); ?>"><?php echo 'Годовой свод по кВт и тенге'; ?></a></li>
 <li><a href="<?php echo site_url('billing/pre_narzad_po_ture'); ?>"><?php echo 'Наряд-задание по ТУРЭ'; ?></a></li>
 <li><a href="<?php echo site_url('billing/gos_poverka'); ?>"><?php echo 'Гос.поверка'; ?></a></li>
+<li><a href="<?php echo site_url('billing/kontragent_rek'); ?>"><?php echo 'Список контрагентов с реквизитами'; ?></a></li>
